@@ -9,7 +9,7 @@ const Logo = () => {
         <a>
           <Image
             className={styles.logoImage}
-            src={'/static/images/cm-logo.jpg'}
+            src={'/static/cm-logo.jpg'}
             width={80}
             height={80}
           />

@@ -22,7 +22,7 @@ const HeroText = () => {
       <div className={styles.heroImageBox}>
         <Image
           className={styles.heroImage}
-          src={'/static/images/hero--image.jpg'}
+          src={'/static/hero--image.jpg'}
           width={350}
           height={250}
         />
