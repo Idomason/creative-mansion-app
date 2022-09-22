@@ -1,0 +1,30 @@
+[
+  {
+    "id": 0,
+    "imgUrl": "/static/cm-logo.jpg",
+    "title": "Website Development",
+    "description": "Get the best website and mobile app at an affordable rate. Automate your business with social media integration.",
+    "number": "01"
+  },
+  {
+    "id": 1,
+    "imgUrl": "/static/cm-logo.jpg",
+    "title": "eCommerce Manager",
+    "description": "It's an effort to perfectly manage an ecommerce store, and this has been a struggle to many online businesses. We simply help you ease the stress and boost your sales.",
+    "number": "02"
+  },
+  {
+    "id": 2,
+    "imgUrl": "/static/cm-logo.jpg",
+    "title": "Business Branding",
+    "description": "From market analysis to brand identity and design, making your product meek market demands and stay ahead of your competitors.",
+    "number": "03"
+  },
+  {
+    "id": 3,
+    "imgUrl": "/static/cm-logo.jpg",
+    "title": "Social Media Marketing",
+    "description": "Social media account promotion and managemant for; facebook, Google, twitter, instagram and Email marketing.",
+    "number": "04"
+  }
+]

@@ -1,0 +1,161 @@
+.whatWeDo {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+  padding: 30px;
+  margin: 30px;
+  margin-top: 80px;
+}
+
+/* 
+FONT-SIZE SPACING SYSTEM (px)
+10/ 12/ 14/ 16/ 18/ 20/ 24/ 30/ 36/ 44/ 52/ 62/ 74/ 86/ 98/ 
+
+SPACING-SYSTEM (px)
+2/ 4/ 8/ 12/ 16/ 24/ 32/ 48/ 64/ 80/ 96/ 128/
+*/
+
+.whatWeDoTextBox {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.whatWeDoHeadingBox {
+  width: 80%;
+}
+
+.whatWeDoHeading {
+  color: #343a40;
+  font-size: 1.5rem;
+  line-height: 1.4;
+}
+
+.whatWeDoParagraph1 {
+  font-weight: 400;
+  line-height: 2;
+}
+
+.whatWeDoParagraph1Box,
+.whatWeDoParagraph2Box {
+  width: 80%;
+}
+
+.whatWeDoParagraph2 {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 2;
+}
+
+.cac {
+  font-weight: 600;
+}
+
+.cacNumber {
+  font-weight: 600;
+}
+
+.videoContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.videoContainer p {
+  display: inline-block;
+}
+
+.videoIconText {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+/* Media Queries */
+@media (min-width: 440px) {
+  .whatWeDo {
+    padding: 0;
+    margin: 0;
+    margin-top: 64px;
+  }
+
+  .whatWeDoTextBox {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 640px) {
+  .whatWeDoHeadingBox h1 {
+    width: 100%;
+  }
+
+  .whatWeDoTextBox {
+    width: 90%;
+    padding: 10px;
+    margin-top: 64px;
+  }
+
+  .whatWeDoParagraph1Box,
+  .whatWeDoParagraph2Box {
+    width: 80%;
+  }
+
+  .whatWeDoHeroImage {
+    width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .whatWeDoHeading {
+    font-size: 1.875rem;
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+  }
+
+  .whatWeDoParagraph1 {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+
+  .whatWeDoParagraph2 {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .whatWeDo {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+  }
+
+  .whatWeDoTextBox {
+    width: 50%;
+  }
+
+  .whatWeDoHeadingBox,
+  .whatWeDoParagraph1Box,
+  .whatWeDoParagraph2Box,
+  .videoContainer {
+    width: 100%;
+  }
+
+  .whatWeDoParagraph1 {
+    font-size: 0.875rem;
+    line-height: 1.5;
+  }
+
+  .whatWeDoParagraph2 {
+    font-size: 0.875rem;
+  }
+}
+
+@media (min-width: 1280px) {
+}

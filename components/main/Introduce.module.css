@@ -1,0 +1,43 @@
+.introduce {
+  width: 83%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+  margin: 0 auto;
+  margin-top: 70px;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+
+/* Media Queries */
+@media (min-width: 440px) {
+  .introduce {
+    gap: 20px;
+  }
+}
+
+@media (min-width: 640px) {
+  .introduce {
+    width: 100%;
+    gap: 30px;
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .introduce {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .introduce {
+    width: 83%;
+    flex-wrap: nowrap;
+    gap: 16px;
+  }
+}
+
+@media (min-width: 1280px) {
+}

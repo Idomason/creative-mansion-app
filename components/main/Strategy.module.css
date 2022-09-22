@@ -1,0 +1,132 @@
+/*  */
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+.strategy {
+  margin: 30px;
+  padding: 30px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: auto;
+  gap: 20px;
+}
+
+.services {
+  max-width: 70%;
+  margin-top: 48px;
+}
+
+.heading {
+  color: #343a40;
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+.servicesList h2 {
+  color: #343a40;
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
+
+.servicesList p {
+  margin-bottom: 24px;
+  font-size: 0.75rem;
+}
+
+.services p {
+  color: #495057;
+}
+
+.servicesList {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.servicesIcon {
+  display: inline-block;
+  font-size: 24px;
+  color: #fc9209;
+}
+
+.servicesImage {
+  width: 100%;
+  border-radius: 12px;
+  align-self: center;
+  /* padding-top: 12px; */
+}
+
+/* Media Queries */
+@media (min-width: 440px) {
+  .strategy {
+    width: 90%;
+    display: block;
+  }
+}
+
+@media (min-width: 640px) {
+  .strategy {
+    display: block;
+    width: 100%;
+    padding: 0;
+    /* margin: 10px; */
+  }
+
+  .strategyBox {
+    /* width: 80%; */
+    margin: 30px;
+    padding: 10px;
+  }
+
+  .servicesImageBox {
+    width: 55%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .heading {
+    font-size: 1.875rem;
+  }
+
+  .servicesList h2 {
+    font-size: 1.125rem;
+  }
+
+  .servicesList p {
+    font-size: 0.875rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .heading {
+    font-size: 2rem;
+  }
+
+  .strategy {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .strategyBox {
+    margin: 0;
+    padding: 0;
+  }
+
+  .servicesImageBox {
+    width: 100%;
+    /* margin: auto; */
+  }
+}
+
+@media (min-width: 1280px) {
+}
