@@ -40,15 +40,6 @@
   border-radius: 0.75rem;
 }
 
-/* 
-FONT-SIZE SPACING SYSTEM (px)
-10/ 12/ 14/ 16/ 18/ 20/ 24/ 30/ 36/ 44/ 52/ 62/ 74/ 86/ 98/ 
-
-SPACING-SYSTEM (px)
-2/ 4/ 8/ 12/ 16/ 24/ 32/ 48/ 64/ 80/ 96/ 128/
-*/
-
-/* Media Queries */
 .worksFirstRow {
   display: block;
 }
@@ -69,13 +60,39 @@ SPACING-SYSTEM (px)
   width: 80%;
 }
 
+/* 
+FONT-SIZE SPACING SYSTEM (px)
+10/ 12/ 14/ 16/ 18/ 20/ 24/ 30/ 36/ 44/ 52/ 62/ 74/ 86/ 98/ 
+
+SPACING-SYSTEM (px)
+2/ 4/ 8/ 12/ 16/ 24/ 32/ 48/ 64/ 80/ 96/ 128/
+*/
+
+/* Media Queries */
+@media (min-width: 360px) {
+  .works {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 0;
+  }
+
+  .worksSecondRow {
+    display: grid;
+    margin: auto;
+    gap: 24px;
+  }
+}
+
 @media (min-width: 640px) {
   .works {
     padding: 20px;
-    margin: 0;
+    margin: 0 auto;
     margin-bottom: 48px;
   }
   .worksSecondRow {
+    width: 100%;
+    display: flex;
     gap: 20px;
     padding: 20px;
     margin: 0;

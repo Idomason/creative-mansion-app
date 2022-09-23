@@ -49,6 +49,8 @@
 }
 
 /* Media Queries */
+
+
 @media (min-width: 768px) {
   .cardTitle {
     font-size: 1rem;

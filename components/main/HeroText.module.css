@@ -45,10 +45,29 @@
 }
 
 /* Media Queries */
-@media (min-width: 440px) {
+@media (min-width: 360px) {
   .hero {
-    /* width: 100%; */
+    margin: 0;
+    padding-top: 64px;
+    width: 80%;
+    margin: auto;
   }
+
+  .heroText {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  .heroImageBox {
+    margin-top: 24px;
+  }
+}
+
+@media (min-width: 440px) {
+  /* .hero {
+    width: 100%;
+  } */
 
   .heroText {
     padding: 0;
@@ -93,8 +112,8 @@
 }
 
 @media (min-width: 768px) {
-  .hero {
-  }
+  /* .hero {
+  } */
 
   .heroTextHeading {
     font-size: 2rem;

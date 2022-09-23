@@ -11,6 +11,12 @@
 }
 
 /* Media Queries */
+@media (min-width: 360px) {
+  .introduce {
+    gap: 24px;
+  }
+}
+
 @media (min-width: 440px) {
   .introduce {
     gap: 20px;

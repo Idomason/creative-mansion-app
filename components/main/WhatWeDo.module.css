@@ -76,6 +76,28 @@ SPACING-SYSTEM (px)
 }
 
 /* Media Queries */
+@media (min-width: 360px) {
+  .whatWeDo {
+    margin: 0;
+    padding: 0;
+    margin-top: 48px;
+  }
+
+  .whatWeDoTextBox {
+    width: 100%;
+  }
+
+  .whatWeDoHeadingBox {
+    margin: auto;
+  }
+
+  .whatWeDoParagraph1Box,
+  .whatWeDoParagraph2Box,
+  .videoContainer {
+    margin: auto;
+  }
+}
+
 @media (min-width: 440px) {
   .whatWeDo {
     padding: 0;

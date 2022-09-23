@@ -35,6 +35,23 @@
 }
 
 /* Media Queries */
+@media (min-width: 360px) {
+  .wrapper {
+    width: 90%;
+    margin: auto;
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+
+  .text {
+    font-size: 0.625rem;
+    text-align: center;
+    font-weight: 700;
+  }
+}
+
 @media (min-width: 440px) {
   .wrapper {
     display: block;

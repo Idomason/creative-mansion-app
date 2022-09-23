@@ -34,6 +34,12 @@
 }
 
 /* Media Queries */
+@media (min-width: 360px) {
+  .bannerImageBox {
+    display: none;
+  }
+}
+
 @media (min-width: 640px) {
   .banner {
     font-size: 0.75rem;

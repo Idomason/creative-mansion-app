@@ -64,6 +64,25 @@ FONT SIZE SYSTEM (px)
 }
 
 /* Media Queries */
+@media (min-width: 360px) {
+  .strategy {
+    margin-top: 64px;
+    width: 90%;
+    display: grid;
+  }
+
+  .services {
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 24px;
+  }
+
+  .servicesList {
+    width: 100%;
+    margin: auto;
+  }
+}
+
 @media (min-width: 440px) {
   .strategy {
     width: 90%;

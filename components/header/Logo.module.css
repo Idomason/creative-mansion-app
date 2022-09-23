@@ -9,6 +9,12 @@
 }
 
 /* Media Queries */
+@media (min-width: 360px) {
+  .logo {
+    width: 40px;
+  }
+}
+
 @media (min-width: 640px) {
   .logo {
     display: none;
