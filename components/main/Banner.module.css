@@ -38,12 +38,25 @@
   .bannerImageBox {
     display: none;
   }
+
+  .banner {
+    font-size: 0.75rem;
+    margin-bottom: 64px;
+  }
 }
 
 @media (min-width: 640px) {
   .banner {
-    font-size: 0.75rem;
+    font-size: 1rem;
     margin-bottom: 64px;
+  }
+
+  .bannerImageBox {
+    display: block;
+  }
+
+  .bannerText {
+    font-size: 1.875rem;
   }
 }
 
